@@ -6,7 +6,7 @@
 		<version>1.0.1-RELEASE</version>
 	</parent>
 	<artifactId>web-project-parent</artifactId>
-	<version>1.0.2-RELEASE</version>
+	<version>1.0.3-RELEASE</version>
 	<packaging>pom</packaging>
 	<dependencyManagement>
 		<dependencies>
@@ -27,4 +27,22 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version2.0</name>
+			<url>http://www.apache.org/licenses/</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<url>https://github.com/guanli-developer/boot-suite-web-project-parent</url>
+		<connection>https://github.com/guanli-developer/boot-suite-web-project-parent.git</connection>
+		<developerConnection>https://github.com/guanli-developer/boot-suite-web-project-parent</developerConnection>
+	</scm>
+	<developers>
+		<developer>
+			<name>Li.Guan</name>
+			<email>guanli_developer@aliyun.com</email>
+		</developer>
+	</developers>
 </project>
